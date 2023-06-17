@@ -1,0 +1,32 @@
+{
+  "name": "v2.0.0",
+  "version": "1.0.0",
+  "description": "ecommerce store based on MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apsc9/Saddi-Dukaan.git"
+  },
+  "keywords": [
+    "mern",
+    "stack"
+  ],
+  "author": "aaditya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apsc9/Saddi-Dukaan/issues"
+  },
+  "homepage": "https://github.com/apsc9/Saddi-Dukaan#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
